@@ -7,7 +7,19 @@
   \***********************************/
 /***/ (() => {
 
+// Navigation toggle JavaScript
+var toggle = document.createElement('button');
+toggle.textContent = "Menu";
+toggle.classList.add('bv-nav-toggle', 'bv-nav-button');
 
+function toggleMenu(e) {
+  var menu = e.target.nextElementSibling.classList.toggle('bv-nav-open');
+}
+
+toggle.addEventListener("click", toggleMenu);
+var nav = document.querySelector('#js-bv-nav');
+nav.classList.add('has-js');
+nav.insertAdjacentElement("beforebegin", toggle);
 
 /***/ }),
 
