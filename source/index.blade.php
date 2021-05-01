@@ -4,7 +4,7 @@
 <header>
     <nav class="bv-nav">
         <a href="/" id="bv-logo">
-            <img src="images/BV-new-01.svg" alt="Boston Volunteers">
+            <img src="/assets/images/BV-new-01.svg" alt="Boston Volunteers">
         </a>
         <ul class="bv-nav-list">
             <li class="bv-nav-item"><a class="bv-nav-link" href="/our-story">Our Story</a></li>
