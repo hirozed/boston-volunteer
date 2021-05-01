@@ -12,3 +12,12 @@ font-family: 'Petrona', serif;
 h1 {
     font-family: 'Domine', serif;
 }
+
+#bv-logo {
+    display: block;
+    width: 200px;
+}
+
+.bv-nav-list {
+    display: flex;
+}

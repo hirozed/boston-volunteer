@@ -31842,6 +31842,15 @@ h1 {
   font-family: 'Domine', serif;
 }
 
+#bv-logo {
+  display: block;
+  width: 200px;
+}
+
+.bv-nav-list {
+  display: flex;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -187396,4 +187405,3 @@ h1 {
     --tw-backdrop-sepia: sepia(100%);
   }
 }
-
