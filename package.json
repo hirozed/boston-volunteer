@@ -1,16 +1,18 @@
 {
     "private": true,
     "scripts": {
+        "postinstall": "composer install",
         "dev": "mix",
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
-        "prod": "mix --production"
+        "prod": "mix --production",
+        "start": "watch"
     },
     "devDependencies": {
+        "cross-env": "^7.0.3",
         "laravel-mix": "^6.0.10",
         "laravel-mix-jigsaw": "^1.5.0",
-        "postcss": "^8.2.4",
-        "postcss-import": "^14.0.0",
-        "tailwindcss": "^2.0.2"
+        "sass": "^1.32.12",
+        "sass-loader": "^11.0.1"
     }
 }
