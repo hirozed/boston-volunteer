@@ -1,0 +1,44 @@
+body {
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-family-serif;
+}
+
+$font-sizes: (
+	"1": 2.488rem, 
+	"2": 2.074rem, 
+	"3": 1.728rem,
+	"4": 1.44rem,
+	"5": 1.2rem,
+	"6": 1rem,
+);
+
+@each $key, $size in $font-sizes {
+	%font-size-#{$key} {
+		font-size: $size;
+		font-family: $font-family-serif;
+	}
+}
+
+.bv-button {
+	background: $color-orange;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-family: $font-family-serif;
+	font-weight: 700;
+	margin-left: 1em;
+	padding: 0.5em 1em;
+	text-decoration: none;
+
+	&:hover {
+		cursor: pointer;
+	}
+}

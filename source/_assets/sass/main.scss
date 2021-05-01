@@ -18,12 +18,6 @@ $lg: 768px;
 $xl: 768px;
 
 @import "~normalize-scss/sass/normalize/import-now";
+@import "typography";
 @import "navigation";
-
-body {
-    font-size: 18px;
-}
-
-h1 {
-    font-family: $font-family-serif;
-}
+@import "banner";
