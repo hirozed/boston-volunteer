@@ -1,7 +1,7 @@
 // Navigation toggle JavaScript
 const toggle = document.createElement('button');
 toggle.textContent = "Menu";
-toggle.classList.add('bv-nav-toggle', 'bv-nav-button');
+toggle.classList.add('bv-nav-toggle', 'bv-button');
 
 function toggleMenu(e) {
     const menu = e.target.nextElementSibling.classList.toggle('bv-nav-open');
