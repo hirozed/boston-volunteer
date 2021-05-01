@@ -22,7 +22,7 @@
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/our-goals">Our Goals</a></li>
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/find-events">Find an Event</a></li>
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/organize-events">Organize an Event</a></li>
-					<li class="bv-nav-item"><a class="bv-nav-link bv-nav-button" href="/get-involved">Get Involved</a></li>
+					<li class="bv-nav-item"><a class="bv-nav-link bv-button bv-nav-button" href="/get-involved">Get Involved</a></li>
 				</ul>
 			</nav>
 		</header>

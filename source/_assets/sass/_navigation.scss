@@ -53,18 +53,9 @@ $nav-breakpoint: $sm;
 }
 
 .bv-nav-button {
-	background: $color-orange;
-	border: none;
-	border-radius: 20px;
 	color: #fff;
-	font-family: inherit;
-	font-weight: inherit;
 	margin-left: 1em;
 	padding: 0.5em 1em;
-
-	&:hover {
-		cursor: pointer;
-	}
 }
 
 .bv-nav-toggle {
