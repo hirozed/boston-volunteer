@@ -5,9 +5,7 @@
 	<section class="bv-hero">
 		<div class="bv-hero-video">
 			<video autoplay loop muted playsinline>
-				<!--source src="/media/cc0-videos/flower.webm"
-				type="video/webm"-->
-				<source src="/assets/video/video.mp4"
+				<source src="/assets/video/video-optimized-further.mp4"
 				type="video/mp4">
 				<!-- TODO: a still image here as a fallback -->
 				Sorry, your browser doesn't support embedded videos.
