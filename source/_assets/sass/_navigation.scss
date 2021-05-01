@@ -1,0 +1,67 @@
+// Navigation styles
+
+$nav-breakpoint: $sm;
+
+.bv-nav {
+	align-items: center;
+	display: flex;
+	font-family: $font-family-serif;
+	justify-content: space-between;
+	padding: 1em;
+
+	@media screen and ( max-width: $nav-breakpoint - 1 ) {
+		flex-wrap: wrap;
+	}
+}
+
+#bv-logo {
+	display: block;
+	width: 200px;
+}
+
+.bv-nav-list {
+	align-items: center;
+	list-style-type: none;
+
+	@media screen and ( max-width: $nav-breakpoint - 1 ) {
+		width: 100%;
+	}
+
+	&.has-js {
+		display: none;
+		
+		@media screen and ( min-width: $nav-breakpoint ) {
+			display: flex;
+		}
+	}
+
+	&.bv-nav-open {
+		display: block;
+
+		@media screen and ( min-width: $nav-breakpoint ) {
+			display: flex;
+		}
+	}
+}
+
+.bv-nav-link {
+	color: #000;
+	display: block;
+	font-weight: 700;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+}
+
+.bv-nav-button {
+	color: #fff;
+	margin-left: 1em;
+	padding: 0.5em 1em;
+}
+
+.bv-nav-toggle {
+	display: block;
+
+	@media screen and ( min-width: $nav-breakpoint ) {
+		display: none;
+	}
+}

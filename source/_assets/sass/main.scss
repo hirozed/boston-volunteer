@@ -1,2 +1,23 @@
-// Tacit - CSS Framework for Dummies, Without Classes
-@import url('https://unpkg.com/tacit-css@1.5.1/dist/tacit-css-1.5.1.min.css');
+/*
+font-family: 'Domine', serif;
+font-family: 'Fraunces', serif;
+font-family: 'Newsreader', serif;
+font-family: 'Petrona', serif;
+*/
+
+$font-family-serif: 'Domine', serif;
+
+$color-darkblue: #2b3990;
+$color-orange: #d04428; // Adjusted for AA accessibility
+
+$xs: 500px;
+$sm: 768px;
+// Todo: set these
+$md: 768px;
+$lg: 768px;
+$xl: 768px;
+
+@import "~normalize-scss/sass/normalize/import-now";
+@import "typography";
+@import "navigation";
+@import "banner";

@@ -11,3 +11,4 @@ npm-debug.log
 # /build_production/
 # /source/assets/build/
 *.code-workspace
+.DS_Store

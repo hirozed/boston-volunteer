@@ -6,7 +6,7 @@
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
         "prod": "mix --production",
-        "start": "watch"
+        "start": "npm run watch"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
@@ -14,5 +14,8 @@
         "laravel-mix-jigsaw": "^1.5.0",
         "sass": "^1.32.12",
         "sass-loader": "^11.0.1"
+    },
+    "dependencies": {
+        "normalize-scss": "^7.0.1"
     }
 }
