@@ -463,6 +463,11 @@ template {
   justify-content: space-between;
   padding: 1em;
 }
+@media screen and (max-width: 767px) {
+  .bv-nav {
+    flex-wrap: wrap;
+  }
+}
 
 #bv-logo {
   display: block;
@@ -471,8 +476,28 @@ template {
 
 .bv-nav-list {
   align-items: center;
-  display: flex;
   list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .bv-nav-list {
+    width: 100%;
+  }
+}
+.bv-nav-list.has-js {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .bv-nav-list.has-js {
+    display: flex;
+  }
+}
+.bv-nav-list.bv-nav-open {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .bv-nav-list.bv-nav-open {
+    display: flex;
+  }
 }
 
 .bv-nav-link {
@@ -485,10 +510,25 @@ template {
 
 .bv-nav-button {
   background: #d04428;
+  border: none;
   border-radius: 20px;
   color: #fff;
+  font-family: inherit;
+  font-weight: inherit;
   margin-left: 1em;
   padding: 0.5em 1em;
+}
+.bv-nav-button:hover {
+  cursor: pointer;
+}
+
+.bv-nav-toggle {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .bv-nav-toggle {
+    display: none;
+  }
 }
 
 body {
