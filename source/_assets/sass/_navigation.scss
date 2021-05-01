@@ -1,0 +1,36 @@
+// Navigation styles
+
+.bv-nav {
+	align-items: center;
+	display: flex;
+	font-family: $font-family-serif;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+#bv-logo {
+	display: block;
+	width: 200px;
+}
+
+.bv-nav-list {
+	align-items: center;
+	display: flex;
+	list-style-type: none;
+}
+
+.bv-nav-link {
+	color: #000;
+	display: block;
+	font-weight: 700;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+}
+
+.bv-nav-button {
+	background: $color-orange;
+	border-radius: 20px;
+	color: #fff;
+	margin-left: 1em;
+	padding: 0.5em 1em;
+}
