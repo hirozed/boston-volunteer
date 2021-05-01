@@ -1,6 +1,6 @@
 @extends('_layouts.main')
 
-@section('title', 'Our Goals')
+@section('title', 'Organize Events')
 
 @section('body')
 <section class="bv-content">
@@ -14,8 +14,8 @@
 			</video>
 		</div>
 		<section class="bv-hero-content">
-			<h1>Our Goals</h1>
-			<p>Copy for our goals.</p>
+			<h1>Organize Events</h1>
+			<p>Copy for the organize events page.</p>
 			<a href="#" class="bv-button bv-hero-button">Hello!</a>
 		</section>
 	</section>
