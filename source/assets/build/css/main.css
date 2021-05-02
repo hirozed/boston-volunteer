@@ -593,12 +593,32 @@ p {
   font-size: 1.25rem;
 }
 
+section {
+  padding: 5vw;
+}
+
+.bv-quotes {
+  background-color: #2b3990;
+  color: #fff;
+  padding: 1em;
+}
+
 .bv-impact {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: masonry;
   masonry-auto-flow: next;
+}
+
+.bv-callouts {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.bv-callouts-title {
+  grid-column: 1/-1;
 }
 
 .bv-wide {
