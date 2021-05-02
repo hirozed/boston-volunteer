@@ -14,7 +14,6 @@
 @section('hero-content')
 		<h1>Our Story</h1>
 		<p>What we're about - and how we're unique</p>
-		<a href="#" class="bv-button bv-hero-button">Hello!</a>
 @endsection
 
 @section('body')

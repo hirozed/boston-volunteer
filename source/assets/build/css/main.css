@@ -482,6 +482,10 @@ p {
   margin: 1.65em auto;
 }
 
+.bv-center {
+  text-align: center;
+}
+
 .bv-nav {
   align-items: center;
   display: flex;
@@ -613,6 +617,26 @@ p {
 .bv-action {
   padding: 1em;
   width: 33%;
+}
+
+.bv-commit {
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.bv-commit * {
+  width: 100%;
+}
+.bv-commit h3 {
+  margin: 0;
+}
+
+.bv-commitment {
+  font-size: 0.75em;
+  font-style: italic;
+  order: -1;
 }
 
 img {
