@@ -27,6 +27,7 @@
 	@extend %font-size-4;
 	background: transparentize($color-darkblue, .25);
 	color: #fff;
+	max-width: 75ch;
 	padding: 1em;
 	position: relative;
 	text-align: center;

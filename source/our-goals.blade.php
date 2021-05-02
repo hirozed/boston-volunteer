@@ -14,7 +14,6 @@
 @section('hero-content')
 		<h1>Our Goals</h1>
 		<p>We believe that to grow, we must always ask questions - and strive for a better Boston. Here are some of the questions we're asking now.</p>
-		<a href="#" class="bv-button bv-hero-button">Hello!</a>
 @endsection
 
 @section('body')
@@ -31,6 +30,8 @@
 				<li>A plan of action to keep new volunteers safe while helping in person</li>
 				<li>An expanded framework for remote volunteering</li>
 			</ul>
+			<p><strong>Will you be the one to take our 11,000 strong corps to the next level?</strong></p>
+			<a href="/get-involved" class="bv-button">Join our board</a>
 		</aside>
 	</section>
 	<section class="bv-goal">
@@ -45,6 +46,8 @@
 				<li>Action item two</li>
 				<li>Action item three</li>
 			</ul>
+			<p><strong>Do you have what it takes to crack the equitable education code?</strong></p>
+			<a href="/get-involved" class="bv-button">Organize an event</a>
 		</aside>
 	</section>
 	<section class="bv-goal">
@@ -59,6 +62,8 @@
 				<li>Action item two</li>
 				<li>Action item three</li>
 			</ul>
+			<p><strong>Are you ready to make measurable change in your neighborhood?</strong></p>
+			<a href="/get-involved" class="bv-button">Volunteer your time</a>
 		</aside>
 	</section>
 </div>

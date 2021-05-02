@@ -14,9 +14,9 @@
 @section('hero-content')
 		<h1>Find Events</h1>
 		<p>Let us do the legwork. Pick an event you like, and we'll help you take your first steps in volunteering, no experience or special training required.</p>
-		<a href="#" class="bv-button bv-hero-button">Sign up on Meetup.com</a>
+		<a href="https://www.meetup.com/BostonVolunteer/about/" class="bv-button bv-hero-button">Sign up on Meetup.com</a>
 @endsection
 
 @section('body')
-
+<p>Jim, please provide Meetup API here. No additional content needed.</p>
 @endsection
