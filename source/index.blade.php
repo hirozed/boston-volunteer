@@ -15,7 +15,7 @@
 		<a href="/our-story" class="bv-button bv-hero-button">Read our story</a>
 @endsection
 
-@section('body')
+@section('content')
 	<div class="bv-center">
 		<h2>Imagine the impact you could have here.</h2>
 		<p>From many ideas, ONE vision. From many events, ONE adventure. From many people, ONE community. From many priorities, ONE purpose.
@@ -25,7 +25,7 @@
 		<aside class="bv-impact-large">
 			<h3>Helping local residents</h3>
 			<p>
-				Keith - local Boston resident - middle age - reached out and mentioned that he lacks some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we can help. Even though it’s different from what we’ve done before, we thought - this is what we’re here for. 
+				Keith - local Boston resident - middle age - reached out and mentioned that he lacks some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we can help. Even though it’s different from what we’ve done before, we thought - this is what we’re here for.
 			</p>
 			<p>This is what Boston Volunteer is about.</p>
 		</aside>
@@ -56,15 +56,15 @@
 			<p>Whether you are looking to create change in your neighborhood, make new friends, or bring new meaning to your free time, becoming active with Boston Volunteer can help you acheive your goals.</p>
 		</div>
 		<div class="bv-impact">
-			<blockquote>	 
+			<blockquote>
 				<p>“Wonderful dedicated people came and helped the students. They really cared about the students and the work they had done. Really helped the students learn how to present their work with confidence.”</p>
 				<figcaption>— Sally Ann on Apr 22, 2014.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“I liked the volunteers participating in this event, very friendly bunch of people, always smiling, very courteous to the families and worked very hard to help out nearly 600 families!”</p>
 				<figcaption>— Mohan Karkada on Jan 15, 2018.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“Boston Volunteers is a big group of some of the best people I've met in Boston. Everyone is caring, with wonderful positive energy. Thank you! I'm so glad to have joined this big volunteers family.”</p>
 				<figcaption>— Anara on Jul 12, 2013.</figcaption>
 			</blockquote>
@@ -96,8 +96,8 @@
 		</div>
 	</section>
 
-<!-- 
-	TODO: Include a credits page. 
+<!--
+	TODO: Include a credits page.
 	Video by Pressmaster from Pexels
 	Video by Julia M Cameron from Pexels
 -->
