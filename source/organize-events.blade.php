@@ -18,5 +18,5 @@
 	
 @section('body')
 	<p>Josh: please provide copy here.</p>
-	<a href="#" class="bv-button">Email Josh for more information</a>
+	<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Email Josh for more information</a>
 @endsection

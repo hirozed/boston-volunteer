@@ -482,6 +482,10 @@ p {
   margin: 1.65em auto;
 }
 
+.bv-center {
+  text-align: center;
+}
+
 .bv-nav {
   align-items: center;
   display: flex;
@@ -575,6 +579,7 @@ p {
 .bv-hero-content {
   background: rgba(43, 57, 144, 0.75);
   color: #fff;
+  max-width: 75ch;
   padding: 1em;
   position: relative;
   text-align: center;
@@ -590,6 +595,7 @@ p {
 
 .bv-impact {
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: masonry;
   masonry-auto-flow: next;
@@ -613,6 +619,26 @@ p {
 .bv-action {
   padding: 1em;
   width: 33%;
+}
+
+.bv-commit {
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.bv-commit * {
+  width: 100%;
+}
+.bv-commit h3 {
+  margin: 0;
+}
+
+.bv-commitment {
+  font-size: 0.75em;
+  font-style: italic;
+  order: -1;
 }
 
 img {
