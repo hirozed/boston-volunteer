@@ -15,8 +15,8 @@
 	<h1>Organize Events</h1>
 	<p>Passionate about a cause, but need help? We can connect you with a workforce.</p>
 @endsection
-	
-@section('body')
+
+@section('content')
 <div class="bv-content-container">
 	<p>Josh: please provide copy here.</p>
 	<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Email Josh for more information</a>

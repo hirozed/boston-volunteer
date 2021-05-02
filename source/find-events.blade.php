@@ -1,5 +1,7 @@
 @extends('_layouts.main')
 
+<script defer src="{{ mix('js/meetup.js', 'assets/build') }}"></script>
+
 @section('title', 'Find Events')
 
 @section('hero-media')
@@ -17,8 +19,8 @@
 		<a href="https://www.meetup.com/BostonVolunteer/about/" class="bv-button bv-hero-button">Sign up on Meetup.com</a>
 @endsection
 
-@section('body')
+@section('content')
 <div class="bv-content-container">
-	<p>Jim, please provide Meetup API here. No additional content needed.</p>
+	<div id="bv-calendar"></div>
 </div>
 @endsection
