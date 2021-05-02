@@ -16,8 +16,7 @@
 	<p>Let us help you grow while growing your community.</p>
 @endsection
 
-@section('content')
-<div class="bv-wide">
+@section('body')
 <section class="bv-get-involved">
 	<h2 class="bv-center">We make it easy to help, no matter what your schedule is.</h2>
 	<p>Josh, please write a paragraph about how easy it is to help here and the different levels of time commitment. Maybe something inspirational. Keep it to about twice this length.</p>
@@ -53,5 +52,4 @@
 	<p>Read our story. We think you'll be impressed&mdash;and hopefully, inspired to take action.</p>
 	<a href="/our-story" class="bv-button">Read our story</a>
 </section>
-</div>
 @endsection

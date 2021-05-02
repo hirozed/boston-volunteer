@@ -35,9 +35,9 @@
 					@yield('hero-content')
 				</section>
 			</section>
-			<section class="bv-content">
+			<!--section class="bv-content"-->
 				@yield('content')
-			</section>
+			<!--/section-->
 		</main>
 	</body>
 </html>
