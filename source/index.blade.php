@@ -29,7 +29,13 @@
 			<p>This is what Boston Volunteer is about.</p>
 		</aside>
 		<aside class="bv-impact-results">
-			<aside>
+			<div class="bv-impact-fact">
+				<em>10,970</em> Boston Volunteers
+			</div>
+			<div class="bv-impact-fact">
+				<em>32</em> Upcoming Boston Volunteer events
+			</div>
+			<!--aside>
 				<h3>Rescuing Leftover Cuisine</h3>
 				<span class="bv-grapcic">25 weeks</span>
 				<span class="bv-grapcic">304 homes</span>
@@ -40,13 +46,7 @@
 				<img src="https://secure.meetupstatic.com/photos/event/3/7/3/e/600_395774142.jpeg" alt="Doggy Fun Run">
 				<h3>Doggy Fun Run</h3>
 				<span class="bv-grapcic">3 doggy survivors adopted</span>
-			</aside>
-			<div>
-				10,970 Boston Volunteers
-			</div>
-			<div>
-				32 Upcoming Boston Volunteer events
-			</div>
+			</aside-->
 		</aside>
 	</section>
 	<section class="bv-quotes">
