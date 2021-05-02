@@ -16,7 +16,7 @@
 	<p>Let us help you grow while growing your community.</p>
 @endsection
 
-@section('body')
+@section('content')
 <div class="bv-wide">
 <section class="bv-get-involved">
 	<h2 class="bv-center">We make it easy to help, no matter what your schedule is.</h2>

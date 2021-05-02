@@ -16,19 +16,19 @@
 		<p>What we're about - and how we're unique</p>
 @endsection
 
-@section('body')
+@section('content')
 <p>They said it was impossible. They said it couldn't be done. How could you create a way to organize and empowers thousands of caring people to help fellow Bostonians in need, and do it in a no-hassle, no commitment way where folks can easily choose where and how they want to help? It seemed like an insurmountable task.</p>
- 
+
 <p>When we started Boston Volunteer, we bucked all the trends. No mandatory training sessions for new people. No large corporate structures or high costs. We were simply a bunch of good-natured and hard working people wanting to make our little corner of the world a better place. Why?</p>
- 
+
 <p>Because we believe in better.</p>
- 
+
 <p>With nothing more than word-of-mouth reputation, <a href="https://www.meetup.com/BostonVolunteer/">Meetup.com</a> as a springboard, and a knack for gathering some of the coolest people around, Boston Volunteer  experienced exponential growth. Who would have imagined that in our first three years we'd have more than forty seven hundred good-hearted Boston Volunteers standing up and fighting for better? Not us, that's for sure!</p>
 
 <h2>But now, we need your help.</h2>
 
 <p>After 13 years of incredible work in the Boston area, Boston Volunteer has grown to <strong>nearly 11,000 volunteers strong, with only one person to help coordinate it all.</strong></p>
- 
+
 <p>We are so incredibly grateful for all the volunteers who are already part of Boston Volunteer, and to help mobilize those people, what we need most right now are <strong>people who can organize and guide this incredible community.</strong> We believe you&mdash;just by taking the time to read this, right now&mdash;may have what it takes to be one of these people.</strong></p>
 
 <p>No matter what your age or level of experience, we want you in our ranks.</p>
@@ -44,11 +44,11 @@
 <p>Our mission is to make it easier for you to fulfill your goal of giving back. Spend an evening in a Boston soup kitchen; help tutor a single, local mom so she can earn her GED; rebuild your neighborhood playground so kids can play safely; kayak and clean the Charles to better our environment; build a home for a local family; enjoy time with a lonely elderly grandmother. The variety is endless and refreshing.</p>
 
 <p>And while the Boston Volunteers have a well-earned reputation for having hard working and dependable folks, we're also known to have a pretty good time doing so. Beyond having fun while helping others, we also celebrate a variety of social events in your neighbourhood where we simply spend a little time relaxing and getting to know each other.</p>
-	
+
 <p>You choose where, when, and how to participate. There will be a convenient volunteer celebration for you. Don't miss this easy opportunity to help and build community.</p>
 
 <h3>Connect the power of Boston Volunteer to those who need it most.</h3>
-	
+
 <p>There are still countless people in our neighbourhood who find themselves in need, and we know you have an eye for where those needs are. Let us help you. If you have a passion and there's a need, we'll get you set up to lead your own volunteer event. We revere the can-do spirit.</p>
 
 <h2>We can do this, together.</h2>
@@ -59,9 +59,9 @@
 <p>They said it was impossible to break down the barriers to volunteering. I've since built a growing and meaningful community. I’ve even met my beautiful wife at an event! But to keep this momentum going, I can't do it alone. I need your help to bring Boston Volunteer to the corners of our neighborhoods that need it most, and bring that meaningful change back to our backyards.</p>
 
 <p>All you need is a caring heart and a willingness to share a little bit of your valuable time to help.</p>
- 
+
 <p>Let’s get to work.</p>
- 
+
 <p><strong>Josh Konoff</strong><br/>
 <em>Executive Director, Boston Volunteer</em></p>
 
