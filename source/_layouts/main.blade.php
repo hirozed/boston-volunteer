@@ -11,7 +11,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Domine&family=Fraunces&family=Newsreader&family=Petrona&display=swap" rel="stylesheet"> 
 		<script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 	</head>
-	<body class="text-gray-900 font-sans antialiased">
+	<body>
 		<header>
 			<nav class="bv-nav" role="navigation">
 				<a href="/" id="bv-logo">
@@ -22,10 +22,22 @@
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/our-goals">Our Goals</a></li>
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/find-events">Find an Event</a></li>
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/organize-events">Organize an Event</a></li>
-					<li class="bv-nav-item"><a class="bv-nav-link bv-nav-button" href="/get-involved">Get Involved</a></li>
+					<li class="bv-nav-item"><a class="bv-nav-link bv-button bv-nav-button" href="/get-involved">Get Involved</a></li>
 				</ul>
 			</nav>
 		</header>
-		@yield('body')
+		<main>
+			<section class="bv-hero">
+				<div class="bv-hero-video">
+					@yield('hero-media')
+				</div>
+				<section class="bv-hero-content">
+					@yield('hero-content')
+				</section>
+			</section>
+			<section class="bv-content">
+				@yield('body')
+			</section>
+		</main>
 	</body>
 </html>

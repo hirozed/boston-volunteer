@@ -18,12 +18,18 @@ $lg: 768px;
 $xl: 768px;
 
 @import "~normalize-scss/sass/normalize/import-now";
+@import "typography";
 @import "navigation";
+@import "banner";
+@import "homepage";
+@import "our-goals";
+@import "get-involved";
 
-body {
-    font-size: 18px;
+img {
+    max-width: 100%;
 }
 
-h1 {
-    font-family: $font-family-serif;
+.bv-content {
+    max-width: 55ch;
+    margin: 0 auto;
 }
