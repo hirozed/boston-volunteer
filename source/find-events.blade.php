@@ -13,8 +13,8 @@
 
 @section('hero-content')
 		<h1>Find Events</h1>
-		<p>Copy for the find events page</p>
-		<a href="#" class="bv-button bv-hero-button">Hello!</a>
+		<p>Let us do the legwork. Pick an event you like, and we'll help you take your first steps in volunteering, no experience or special training required.</p>
+		<a href="#" class="bv-button bv-hero-button">Sign up on Meetup.com</a>
 @endsection
 
 @section('body')

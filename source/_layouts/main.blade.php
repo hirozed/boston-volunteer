@@ -26,7 +26,7 @@
 				</ul>
 			</nav>
 		</header>
-		<section class="bv-hero">
+		<main>
 			<section class="bv-hero">
 				<div class="bv-hero-video">
 					@yield('hero-media')
@@ -35,9 +35,9 @@
 					@yield('hero-content')
 				</section>
 			</section>
-		</section>
-		<section class="bv-content">
-			@yield('body')
-		</section>
+			<section class="bv-content">
+				@yield('body')
+			</section>
+		</main>
 	</body>
 </html>

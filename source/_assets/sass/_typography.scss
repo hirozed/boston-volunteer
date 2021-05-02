@@ -1,14 +1,7 @@
 body {
-	font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
 	font-family: $font-family-serif;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 $font-sizes: (
@@ -23,7 +16,6 @@ $font-sizes: (
 @each $key, $size in $font-sizes {
 	%font-size-#{$key} {
 		font-size: $size;
-		font-family: $font-family-serif;
 	}
 }
 
@@ -32,9 +24,6 @@ $font-sizes: (
 	border: none;
 	border-radius: 20px;
 	color: #fff;
-	font-family: $font-family-serif;
-	font-weight: 700;
-	margin-left: 1em;
 	padding: 0.5em 1em;
 	text-decoration: none;
 
@@ -44,8 +33,5 @@ $font-sizes: (
 }
 
 p {
-	font-family: $font-family-serif;
-	line-height: 1.7;
 	margin: 1.65em auto;
-	max-width: 55ch;
 }
