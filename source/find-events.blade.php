@@ -18,5 +18,5 @@
 @endsection
 
 @section('body')
-
+<p>Jim, please provide Meetup API here. No additional content needed.</p>
 @endsection
