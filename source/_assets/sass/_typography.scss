@@ -42,3 +42,10 @@ $font-sizes: (
 		cursor: pointer;
 	}
 }
+
+p {
+	font-family: $font-family-serif;
+	line-height: 1.7;
+	margin: 1.65em auto;
+	max-width: 55ch;
+}
