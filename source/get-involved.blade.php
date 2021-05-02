@@ -16,7 +16,7 @@
 	<p>Let us help you grow while growing your community.</p>
 @endsection
 
-@section('body')
+@section('content')
 <section class="bv-get-involved">
 	<h2 class="bv-center">We make it easy to help, no matter what your schedule is.</h2>
 	<p>Josh, please write a paragraph about how easy it is to help here and the different levels of time commitment. Maybe something inspirational. Keep it to about twice this length.</p>

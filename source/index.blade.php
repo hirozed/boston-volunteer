@@ -15,7 +15,7 @@
 		<a href="/our-story" class="bv-button bv-hero-button">Read our story</a>
 @endsection
 
-@section('body')
+@section('content')
 	<div class="bv-center">
 		<h2>Imagine the impact you could have here.</h2>
 		<p>Josh, please write an inspirational intro paragraph to give context to the callouts below.</p>
@@ -55,27 +55,27 @@
 			<p>Whether you are looking to create change in your neighborhood, make new friends, or bring new meaning to your free time, becoming active with Boston Volunteer can help you acheive your goals.</p>
 		</div>
 		<div class="bv-impact">
-			<blockquote>	 
+			<blockquote>
 				<p>“Wonderful dedicated people came and helped the students. They really cared about the students and the work they had done. Really helped the students learn how to present their work with confidence.”</p>
 				<figcaption>— Sally Ann on Apr 22, 2014.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“I liked the volunteers participating in this event, very friendly bunch of people, always smiling, very courteous to the families and worked very hard to help out nearly 600 families!”</p>
 				<figcaption>— Mohan Karkada on Jan 15, 2018.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“Boston Volunteers is a big group of some of the best people I've met in Boston. Everyone is caring, with wonderful positive energy. Thank you! I'm so glad to have joined this big volunteers family.”</p>
 				<figcaption>— Anara on Jul 12, 2013.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“Those people worked hard! We all worked hard that day, and I believe that we all enjoyed ourselves. We worked as a team knowing that we were helping others. There were smiles and laughter amongst the group. It was fun and meaningful experience. Liked it.”</p>
 				<figcaption>— Cheryle on Apr 15, 2012.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“Those people worked hard! We all worked hard that day, and I believe that we all enjoyed ourselves. We worked as a team knowing that we were helping others. There were smiles and laughter amongst the group. It was fun and meaningful experience. Liked it.”</p>
 				<figcaption>— Mohan Karkada on Jan 15, 2018.</figcaption>
 			</blockquote>
-			<blockquote>	 
+			<blockquote>
 				<p>“Excellent idea. Without meetup I did not have the time to look and make phone calls to see if there were opportunities in my area. Maybe my kids should join me. Lots to learn about life.”</p>
 				<figcaption>— bruce on Jan 8, 2011.</figcaption>
 			</blockquote>
@@ -107,8 +107,8 @@
 		</div>
 	</section>
 
-<!-- 
-	TODO: Include a credits page. 
+<!--
+	TODO: Include a credits page.
 	Video by Pressmaster from Pexels
 	Video by Julia M Cameron from Pexels
 -->
