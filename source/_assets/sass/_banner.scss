@@ -24,13 +24,16 @@
 }
 
 .bv-hero-content {
-	@extend %font-size-4;
 	background: transparentize($color-darkblue, .25);
 	color: #fff;
-	max-width: 75ch;
+	max-width: 100ch;
 	padding: 1em;
 	position: relative;
 	text-align: center;
+
+	@media screen and (max-width: $sm) {
+		font-size: 0.5em;
+	}
 
 	p {
 		margin-bottom: 1em;

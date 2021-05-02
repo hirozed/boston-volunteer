@@ -25,11 +25,21 @@ $xl: 768px;
 @import "our-goals";
 @import "get-involved";
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     max-width: 100%;
 }
 
-.bv-content {
-    max-width: 55ch;
+.bv-content-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 5vw;
+}
+
+.bv-content-text {
+    max-width: 75ch;
     margin: 0 auto;
 }

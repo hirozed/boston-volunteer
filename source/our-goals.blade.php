@@ -16,7 +16,8 @@
 		<p>We believe that to grow, we must always ask questions - and strive for a better Boston. Here are some of the questions we're asking now.</p>
 @endsection
 
-@section('body')
+@section('content')
+<div class="bv-content-container">
 <section class="bv-goal">
 	<div class="bv-goal-intro">
 		<h2>How can we ensure local residents have the opportunities they need to succeed?</h2>
@@ -66,4 +67,5 @@
 		<a href="/get-involved" class="bv-button">Volunteer your time</a>
 	</aside>
 </section>
+</div>
 @endsection

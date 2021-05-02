@@ -462,8 +462,41 @@ body {
   line-height: 1.5;
 }
 
-.bv-hero-content {
-  font-size: 1.44rem;
+h1 {
+  font-size: 3.11em;
+}
+
+h2 {
+  font-size: 2.5925em;
+}
+
+h3 {
+  font-size: 1.91em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background-color: #d04428;
+  margin-top: 0.5em;
+}
+h2.bv-center::after, .bv-center h2::after {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bv-button {
@@ -579,10 +612,15 @@ p {
 .bv-hero-content {
   background: rgba(43, 57, 144, 0.75);
   color: #fff;
-  max-width: 75ch;
+  max-width: 100ch;
   padding: 1em;
   position: relative;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .bv-hero-content {
+    font-size: 0.5em;
+  }
 }
 .bv-hero-content p {
   margin-bottom: 1em;
@@ -598,9 +636,12 @@ section {
 }
 
 .bv-quotes {
-  background-color: #2b3990;
+  background-color: rgba(17, 23, 57, 0.90218);
   color: #fff;
-  padding: 1em;
+  padding: 3em;
+}
+.bv-quotes blockquote {
+  font-size: 1.25em;
 }
 
 .bv-impact {
@@ -652,19 +693,30 @@ section {
 }
 
 .bv-goal {
-  border: 1px solid;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.121);
   display: flex;
-  padding: 1em;
-  margin-bottom: 1em;
+  padding: 0;
+  margin-bottom: 5vw;
 }
 
 .bv-goal-intro {
-  width: 66%;
+  padding: 3em;
+  width: 60%;
 }
 
 .bv-action {
-  padding: 1em;
-  width: 33%;
+  align-self: normal;
+  background-color: rgba(17, 23, 57, 0.90218);
+  color: #fff;
+  margin-left: auto;
+  padding: 3em 3em 4em;
+  width: 40%;
+}
+
+.bv-get-involved p {
+  max-width: 75ch;
+  text-align: center;
 }
 
 .bv-commit {
@@ -687,11 +739,21 @@ section {
   order: -1;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 100%;
 }
 
-.bv-content {
-  max-width: 55ch;
+.bv-content-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 5vw;
+}
+
+.bv-content-text {
+  max-width: 75ch;
   margin: 0 auto;
 }

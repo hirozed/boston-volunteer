@@ -5,9 +5,13 @@ section {
 }
 
 .bv-quotes {
-	background-color: $color-darkblue;
+	background-color: mix($color-darkblue, rgba(0, 0, 0, 0.854), 33%);
 	color: #fff;
-	padding: 1em;
+	padding: 3em;
+
+	blockquote {
+		font-size: 1.25em;
+	}
 }
 
 .bv-impact {

@@ -5,17 +5,38 @@ body {
 }
 
 $font-sizes: (
-	"1": 2.488rem, 
-	"2": 2.074rem, 
-	"3": 1.728rem,
-	"4": 1.44rem,
-	"5": 1.2rem,
+	"1": 2.488em, 
+	"2": 2.074em, 
+	"3": 1.528em,
+	"4": 1.44em,
+	"5": 1.2em,
 	"6": 1rem,
 );
 
 @each $key, $size in $font-sizes {
 	%font-size-#{$key} {
-		font-size: $size;
+		font-size: $size*1.25;
+	}
+
+	h#{$key} {
+		@extend %font-size-#{$key};
+	}
+}
+
+h2 {
+	&::after {
+		content: '';
+		display: block;
+		width: 50px;
+		height: 5px;
+		background-color: $color-orange;
+		margin-top: 0.5em;
+	}
+
+	&.bv-center::after,
+	.bv-center &::after {
+		margin-left: auto;
+		margin-right: auto;		
 	}
 }
 
