@@ -457,21 +457,13 @@ template {
 }
 
 body {
-  font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   font-family: "Domine", serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .bv-hero-content {
   font-size: 1.44rem;
-  font-family: "Domine", serif;
 }
 
 .bv-button {
@@ -479,14 +471,15 @@ h6 {
   border: none;
   border-radius: 20px;
   color: #fff;
-  font-family: "Domine", serif;
-  font-weight: 700;
-  margin-left: 1em;
   padding: 0.5em 1em;
   text-decoration: none;
 }
 .bv-button:hover {
   cursor: pointer;
+}
+
+p {
+  margin: 1.65em auto;
 }
 
 .bv-nav {
@@ -593,4 +586,40 @@ h6 {
 .bv-hero-button {
   display: inline-block;
   font-size: 1.25rem;
+}
+
+.bv-impact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: masonry;
+  masonry-auto-flow: next;
+}
+
+.bv-wide {
+  margin: 0 -10vw;
+}
+
+.bv-goal {
+  border: 1px solid;
+  display: flex;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.bv-goal-intro {
+  width: 66%;
+}
+
+.bv-action {
+  padding: 1em;
+  width: 33%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bv-content {
+  max-width: 55ch;
+  margin: 0 auto;
 }

@@ -21,3 +21,14 @@ $xl: 768px;
 @import "typography";
 @import "navigation";
 @import "banner";
+@import "homepage";
+@import "our-goals";
+
+img {
+    max-width: 100%;
+}
+
+.bv-content {
+    max-width: 55ch;
+    margin: 0 auto;
+}
