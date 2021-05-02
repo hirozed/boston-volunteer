@@ -20,5 +20,5 @@
 @endsection
 
 @section('content')
-<p>Jim, please provide Meetup API here. No additional content needed.</p>
+<div id="bv-calendar"></div>
 @endsection
