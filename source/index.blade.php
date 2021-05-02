@@ -2,7 +2,7 @@
 
 @section('hero-media')
 		<video autoplay loop muted playsinline>
-			<source src="/assets/video/video-optimized-further.mp4"
+			<source src="/assets/video/pexels-julia-m-cameron-6894187.mp4"
 			type="video/mp4">
 			<!-- TODO: a still image here as a fallback -->
 			Sorry, your browser doesn't support embedded videos.
@@ -87,5 +87,6 @@
 <!-- 
 	TODO: Include a credits page. 
 	Video by Pressmaster from Pexels
+	Video by Julia M Cameron from Pexels
 -->
 @endsection
