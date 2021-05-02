@@ -17,6 +17,7 @@
 @endsection
 
 @section('body')
+<div class="bv-content-container bv-content-text">
 <p>They said it was impossible. They said it couldn't be done. How could you create a way to organize and empowers thousands of caring people to help fellow Bostonians in need, and do it in a no-hassle, no commitment way where folks can easily choose where and how they want to help? It seemed like an insurmountable task.</p>
  
 <p>When we started Boston Volunteer, we bucked all the trends. No mandatory training sessions for new people. No large corporate structures or high costs. We were simply a bunch of good-natured and hard working people wanting to make our little corner of the world a better place. Why?</p>
@@ -64,5 +65,5 @@
  
 <p><strong>Josh Konoff</strong><br/>
 <em>Executive Director, Boston Volunteer</em></p>
-
+</div>
 @endsection

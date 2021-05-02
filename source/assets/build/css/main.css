@@ -462,8 +462,41 @@ body {
   line-height: 1.5;
 }
 
-.bv-hero-content {
-  font-size: 1.44rem;
+h1 {
+  font-size: 3.11rem;
+}
+
+h2 {
+  font-size: 2.5925rem;
+}
+
+h3 {
+  font-size: 1.91rem;
+}
+
+.bv-hero-content, h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background-color: #d04428;
+  margin-top: 0.5em;
+}
+h2.bv-center::after, .bv-center h2::after {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bv-button {
@@ -598,9 +631,12 @@ section {
 }
 
 .bv-quotes {
-  background-color: #2b3990;
+  background-color: rgba(17, 23, 57, 0.90218);
   color: #fff;
-  padding: 1em;
+  padding: 3em;
+}
+.bv-quotes blockquote {
+  font-size: 1.25em;
 }
 
 .bv-impact {
@@ -663,14 +699,6 @@ section {
   padding: 3em;
   width: 60%;
 }
-.bv-goal-intro h2::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 5px;
-  background-color: #d04428;
-  margin-top: 1em;
-}
 
 .bv-action {
   align-self: normal;
@@ -679,6 +707,11 @@ section {
   margin-left: auto;
   padding: 3em 3em 4em;
   width: 40%;
+}
+
+.bv-get-involved p {
+  max-width: 75ch;
+  text-align: center;
 }
 
 .bv-commit {
@@ -709,13 +742,13 @@ img {
   max-width: 100%;
 }
 
-.bv-content {
-  max-width: 55ch;
-  margin: 0 auto;
-}
-
 .bv-content-container {
   max-width: 1500px;
   margin: 0 auto;
   padding: 5vw;
+}
+
+.bv-content-text {
+  max-width: 75ch;
+  margin: 0 auto;
 }
