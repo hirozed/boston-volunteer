@@ -10,15 +10,16 @@
 @endsection
 
 @section('hero-content')
-		<h1>Boston: we need your help.</h1>
-		<p>After 13 years and building a community of nearly 11,000 volunteers, we've proven we have strength in numbers. Now, we need strength in leadership. <strong>That's where you come in.</strong></p>
+		<h1>For over 12 years, the Boston Volunteers have been locally fighting for a cleaner, safer, and better Boston.</h1>
+		<p>And we’re just getting started.</p>
 		<a href="/our-story" class="bv-button bv-hero-button">Read our story</a>
 @endsection
 
 @section('content')
 	<div class="bv-center">
 		<h2>Imagine the impact you could have here.</h2>
-		<p>Josh, please write an inspirational intro paragraph to give context to the callouts below.</p>
+		<p>From many ideas, ONE vision. From many events, ONE adventure. From many people, ONE community. From many priorities, ONE purpose.
+</p>
 	</div>
 	<section class="bv-impact">
 		<aside class="bv-impact-large">
@@ -66,18 +67,6 @@
 			<blockquote>
 				<p>“Boston Volunteers is a big group of some of the best people I've met in Boston. Everyone is caring, with wonderful positive energy. Thank you! I'm so glad to have joined this big volunteers family.”</p>
 				<figcaption>— Anara on Jul 12, 2013.</figcaption>
-			</blockquote>
-			<blockquote>
-				<p>“Those people worked hard! We all worked hard that day, and I believe that we all enjoyed ourselves. We worked as a team knowing that we were helping others. There were smiles and laughter amongst the group. It was fun and meaningful experience. Liked it.”</p>
-				<figcaption>— Cheryle on Apr 15, 2012.</figcaption>
-			</blockquote>
-			<blockquote>
-				<p>“Those people worked hard! We all worked hard that day, and I believe that we all enjoyed ourselves. We worked as a team knowing that we were helping others. There were smiles and laughter amongst the group. It was fun and meaningful experience. Liked it.”</p>
-				<figcaption>— Mohan Karkada on Jan 15, 2018.</figcaption>
-			</blockquote>
-			<blockquote>
-				<p>“Excellent idea. Without meetup I did not have the time to look and make phone calls to see if there were opportunities in my area. Maybe my kids should join me. Lots to learn about life.”</p>
-				<figcaption>— bruce on Jan 8, 2011.</figcaption>
 			</blockquote>
 		</div>
 	</section>

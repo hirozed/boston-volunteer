@@ -13,7 +13,7 @@
 
 @section('hero-content')
 		<h1>Our Story</h1>
-		<p>What we're about - and how we're unique</p>
+		<p>How we're unique</p>
 @endsection
 
 @section('content')
