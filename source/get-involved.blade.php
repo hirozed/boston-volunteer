@@ -19,7 +19,8 @@
 @section('body')
 <div class="bv-wide">
 <section class="bv-get-involved">
-	<h2 class="bv-center">Easy ways you can help on any schedule</h2>
+	<h2 class="bv-center">We make it easy to help, no matter what your schedule is.</h2>
+	<p>Josh, please write a paragraph about how easy it is to help here and the different levels of time commitment. Maybe something inspirational. Keep it to about twice this length.</p>
 	<div class="bv-impact">
 		<aside class="bv-commit">
 			<h3>Volunteer</h3>
