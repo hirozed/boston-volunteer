@@ -12,9 +12,8 @@
 @endsection
 
 @section('hero-content')
-		<h1>Get Involved</h1>
-			<p>Copy for the get involved page.</p>
-		<a href="#" class="bv-button bv-hero-button">Hello!</a>
+	<h1>Get Involved</h1>
+	<p>Let us help you grow.</p>
 @endsection
 
 @section('body')
