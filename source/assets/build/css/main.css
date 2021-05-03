@@ -580,24 +580,29 @@ p {
 .bv-nav-button {
   background: #2b3990;
   color: #fff;
-  margin-left: 1em;
   padding: 0.5em 1em;
+  margin-top: 0.5em;
 }
 @media screen and (min-width: 768px) {
   .bv-nav-button {
     border-radius: 3em 0 0 3em;
+    margin-left: 1em;
+    margin-top: 0;
   }
 }
 
+.bv-nav-callout + .bv-nav-callout .bv-nav-button {
+  background: #d04428;
+}
 @media screen and (min-width: 768px) {
   .bv-nav-callout + .bv-nav-callout .bv-nav-button {
-    background: #d04428;
     border-radius: 0 3em 3em 0;
     margin-left: 0;
   }
 }
 
 .bv-nav-toggle {
+  font-family: "Domine", serif;
   display: block;
 }
 @media screen and (min-width: 768px) {
