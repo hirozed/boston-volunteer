@@ -464,26 +464,32 @@ body {
 
 h1 {
   font-size: 3.11em;
+  line-height: 1.3;
 }
 
 h2 {
   font-size: 2.5925em;
+  line-height: 1.3;
 }
 
 h3 {
   font-size: 1.91em;
+  line-height: 1.3;
 }
 
 h4 {
   font-size: 1.8em;
+  line-height: 1.3;
 }
 
 h5 {
   font-size: 1.5em;
+  line-height: 1.3;
 }
 
 h6 {
   font-size: 1.25rem;
+  line-height: 1.3;
 }
 
 h2::after {
@@ -572,12 +578,31 @@ p {
 }
 
 .bv-nav-button {
+  background: #2b3990;
   color: #fff;
-  margin-left: 1em;
   padding: 0.5em 1em;
+  margin-top: 0.5em;
+}
+@media screen and (min-width: 768px) {
+  .bv-nav-button {
+    border-radius: 3em 0 0 3em;
+    margin-left: 1em;
+    margin-top: 0;
+  }
+}
+
+.bv-nav-callout + .bv-nav-callout .bv-nav-button {
+  background: #d04428;
+}
+@media screen and (min-width: 768px) {
+  .bv-nav-callout + .bv-nav-callout .bv-nav-button {
+    border-radius: 0 3em 3em 0;
+    margin-left: 0;
+  }
 }
 
 .bv-nav-toggle {
+  font-family: "Domine", serif;
   display: block;
 }
 @media screen and (min-width: 768px) {
