@@ -66,4 +66,14 @@
 <p><strong>Josh Konoff</strong><br/>
 <em>Executive Director, Boston Volunteer</em></p>
 </div>
+	<section class="bv-quotes">
+		<div class="bv-center">
+			<h2>About Josh Konoff</h2>
+		</div>
+		<div class="bv-content-text">
+			<p>Josh Konoff is the entrepreneur and Executive Director of the Boston Volunteers, one of Boston’s most popular nonprofits. Josh also enjoys reading, coding, and being immersed in nature. His favorite books are War and Peace and Atomic Habits. </p>
+			<p>Josh is a data analyst who uses his natural talents for statistics and programming to help people live better, happier lives. Check out his GitHub for meaningful, measurable results.</p>
+			<p>Send Josh a message at <a href="mailto:josh@bostonvolunteer.org">josh@bostonvolunteer.org</a> or <a href="https://www.linkedin.com/in/joshuakonoff8/">connect with Josh on LinkedIn.</a></p>
+		</div>
+	</section>
 @endsection

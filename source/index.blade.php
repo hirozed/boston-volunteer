@@ -38,18 +38,9 @@
 			<div class="bv-impact-fact">
 				<em>32</em> Upcoming Boston Volunteer events
 			</div>
-			<!--aside>
-				<h3>Rescuing Leftover Cuisine</h3>
-				<span class="bv-grapcic">25 weeks</span>
-				<span class="bv-grapcic">304 homes</span>
-				<span class="bv-grapcic">20,149 meals</span>
-				<span class="bv-grapcic">1.851 deliveries</span>
-			</aside>
-			<aside>
-				<img src="https://secure.meetupstatic.com/photos/event/3/7/3/e/600_395774142.jpeg" alt="Doggy Fun Run">
-				<h3>Doggy Fun Run</h3>
-				<span class="bv-grapcic">3 doggy survivors adopted</span>
-			</aside-->
+			<div class="bv-impact-fact span-2">
+				<em>13 years</em> of volunteering
+			</div>
 		</aside>
 	</section>
 	<section class="bv-quotes">
@@ -91,7 +82,7 @@
 				<a href="/our-story" class="bv-button">Our Story</a>
 			</aside>
 			<aside class="bv-callout">
-				<h3>Where we're going next</h3>
+				<h3>What's next?</h3>
 				<p>We're ready to get to work making Boston even better. Learn what we're dreaming about, and how with your help, we plan to make those dreams a reality.</p>
 				<a href="/our-goals" class="bv-button">Our Goals</a>
 			</aside>

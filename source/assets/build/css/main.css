@@ -687,7 +687,7 @@ section {
 .bv-impact-results {
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   font-weight: 700;
 }
 .bv-impact-results em {
@@ -702,6 +702,11 @@ section {
   line-height: 1.2;
   padding: 30px;
 }
+@media screen and (min-width: 1600px) {
+  .bv-impact-fact.span-2 {
+    grid-column: span 2;
+  }
+}
 
 .bv-callouts {
   display: grid;
@@ -711,6 +716,20 @@ section {
 
 .bv-callouts-title {
   grid-column: 1/-1;
+}
+
+.bv-commit,
+.bv-callout {
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.bv-commit .bv-button,
+.bv-callout .bv-button {
+  margin-top: auto;
 }
 
 .bv-wide {
@@ -781,4 +800,10 @@ img {
 .bv-content-text {
   max-width: 75ch;
   margin: 0 auto;
+}
+.bv-content-text a {
+  color: inherit;
+}
+.bv-content-text a:visited, .bv-content-text a:hover, .bv-content-text a:active {
+  color: inherit;
 }

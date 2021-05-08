@@ -72,7 +72,7 @@
 			<li>No hassle</li>
 			<li>Feel good helping people and making new friends</li>
 		</ul>
-		<p><strong>Are you ready to make measurable results in your neighborhood?</strong></p>
+		<p><strong>Are you ready to make meaningful, measurable changes in your neighborhood?</strong></p>
 		<a href="/get-involved" class="bv-button">Volunteer your time</a>
 	</aside>
 </section>

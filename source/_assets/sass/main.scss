@@ -42,4 +42,14 @@ img {
 .bv-content-text {
     max-width: 75ch;
     margin: 0 auto;
+
+    a {
+    	color: inherit;
+
+    	&:visited,
+    	&:hover,
+    	&:active {
+    		color: inherit;
+    	}
+    }
 }
