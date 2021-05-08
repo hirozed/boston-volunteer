@@ -17,7 +17,7 @@ section {
 .bv-impact {
 	display: grid;
 	gap: 30px;
-	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+	grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
 	grid-template-rows: masonry;
 	masonry-auto-flow: next;
 }
@@ -32,7 +32,7 @@ section {
 .bv-impact-results {
 	display: grid;
 	gap: 30px;
-	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+	grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
 	font-weight: 700;
 
 	em {
@@ -47,16 +47,34 @@ section {
 .bv-impact-fact {
 	line-height: 1.2;
 	padding: 30px;
+
+	&.span-2 {
+		@media screen and ( min-width: 1600px ) {
+			grid-column: span 2;
+		}
+	}
 }
 
 .bv-callouts {
 	display: grid;
 	gap: 30px;
-	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+	grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
 }
 
 .bv-callouts-title {
 	grid-column: 1/-1;
 }
 
+.bv-commit,
+.bv-callout {
+	text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+	flex-direction: column;
 
+	.bv-button {
+		margin-top: auto;
+	}
+}

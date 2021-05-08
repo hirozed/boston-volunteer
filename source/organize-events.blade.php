@@ -18,7 +18,10 @@
 
 @section('content')
 <div class="bv-content-container">
-	<p>Josh: please provide copy here.</p>
+	<p>Are you a local nonprofit who needs help?</p>
+	<p>How might we be able to help you?</p>
+	<p>We partner with dozens of local nonprofits.</p>
+	<p>Please contact us and we will help!</p> 
 	<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Email Josh for more information</a>
 </div>
 @endsection
