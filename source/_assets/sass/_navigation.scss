@@ -53,12 +53,31 @@ $nav-breakpoint: $sm;
 }
 
 .bv-nav-button {
+	background: $color-darkblue;
 	color: #fff;
-	margin-left: 1em;
 	padding: 0.5em 1em;
+	margin-top: 0.5em;
+
+	@media screen and (min-width: $nav-breakpoint) {
+		border-radius: 3em 0 0 3em;
+		margin-left: 1em;
+		margin-top: 0;
+	}
+}
+
+.bv-nav-callout {
+	& + & .bv-nav-button {
+		background: $color-orange;
+
+		@media screen and (min-width: $nav-breakpoint) {
+			border-radius: 0 3em 3em 0;
+			margin-left: 0;
+		}
+	}
 }
 
 .bv-nav-toggle {
+	font-family: $font-family-serif;
 	display: block;
 
 	@media screen and ( min-width: $nav-breakpoint ) {
