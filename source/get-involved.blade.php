@@ -37,13 +37,13 @@
 			<h3>Donate your skills</h3>
 			<p class="bv-commitment">Medium commitment, flexible time</p>
 			<p>Everyone has a superpower. What's yours? We need support of all sorts at the organizational level. Tell us how you think your skillset could help Boston Volunteer grow, and we'll help you grow your career in the process.</p>
-			<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Contact Josh</a>
+			<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Contact Team Lead</a>
 		</aside>
 		<aside class="bv-commit">
 			<h3>Become an Organizer</h3>
 			<p class="bv-commitment">Medium commitment, structured time</p>
 			<p>If you are looking to grow in your leadership skills, or give back at the leadership level, we need people who can help grow, shape, and direct Boston Volunteer. We need voices of all levels of experience and backgrounds.</p>
-			<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Contact Josh</a>
+			<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Contact Team Lead</a>
 		</aside>
 	</div>
 </section>

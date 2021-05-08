@@ -18,16 +18,18 @@
 @section('content')
 	<div class="bv-center">
 		<h2>Imagine the impact you could have here.</h2>
-		<p>From many ideas, ONE vision. From many events, ONE adventure. From many people, ONE community. From many priorities, ONE purpose.
-</p>
+		<p>From many ideas, ONE vision.</p>
+		<p>From many events, ONE adventure.</p>
+		<p>From many people, ONE community.</p>
+		<p>From many priorities, ONE purpose.</p>
 	</div>
 	<section class="bv-impact">
 		<aside class="bv-impact-large">
 			<h3>Helping local residents</h3>
 			<p>
-				Keith - local Boston resident - middle age - reached out and mentioned that he lacks some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we can help. Even though it’s different from what we’ve done before, we thought - this is what we’re here for.
+				Keith, a middle-aged local Boston resident, reached out and told us that he lacked some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we could help. Even though it was different from what we’ve done before, we thought - this is what we’re here for.
 			</p>
-			<p>This is what Boston Volunteer is about.</p>
+			<p>This is what the Boston Volunteers is about.</p>
 		</aside>
 		<aside class="bv-impact-results">
 			<div class="bv-impact-fact">
@@ -36,18 +38,9 @@
 			<div class="bv-impact-fact">
 				<em>32</em> Upcoming Boston Volunteer events
 			</div>
-			<!--aside>
-				<h3>Rescuing Leftover Cuisine</h3>
-				<span class="bv-grapcic">25 weeks</span>
-				<span class="bv-grapcic">304 homes</span>
-				<span class="bv-grapcic">20,149 meals</span>
-				<span class="bv-grapcic">1.851 deliveries</span>
-			</aside>
-			<aside>
-				<img src="https://secure.meetupstatic.com/photos/event/3/7/3/e/600_395774142.jpeg" alt="Doggy Fun Run">
-				<h3>Doggy Fun Run</h3>
-				<span class="bv-grapcic">3 doggy survivors adopted</span>
-			</aside-->
+			<div class="bv-impact-fact span-2">
+				<em>13 years</em> of volunteering
+			</div>
 		</aside>
 	</section>
 	<section class="bv-quotes">
@@ -89,7 +82,7 @@
 				<a href="/our-story" class="bv-button">Our Story</a>
 			</aside>
 			<aside class="bv-callout">
-				<h3>Where we're going next</h3>
+				<h3>What's next?</h3>
 				<p>We're ready to get to work making Boston even better. Learn what we're dreaming about, and how with your help, we plan to make those dreams a reality.</p>
 				<a href="/our-goals" class="bv-button">Our Goals</a>
 			</aside>

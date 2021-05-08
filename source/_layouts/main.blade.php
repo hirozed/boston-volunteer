@@ -15,7 +15,7 @@
 		<header>
 			<nav class="bv-nav" role="navigation">
 				<a href="/" id="bv-logo">
-					<img src="/assets/images/BV-new-01.svg" alt="Boston Volunteers">
+					<img src="/assets/images/BV-new-01.svg" alt="Boston Volunteer">
 				</a>
 				<ul id="js-bv-nav" class="bv-nav-list">
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/our-story">Our Story</a></li>
@@ -39,5 +39,28 @@
 				@yield('content')
 			<!--/section-->
 		</main>
+		<footer>
+			<address class="footer-logo">
+				<img src="/assets/images/BV-new-01.svg" alt="Boston Volunteer">
+				<div class="footer-tagline">
+					<p><em>Big enough to deliver, small enough to care.</em></p>
+					<p><a href="mailto:josh@bostonvolunteer.org">Contact Us</a></p>
+				</div>
+			</address>
+			<address class="footer-credit">
+				<p>
+					Made with 
+					<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-labelledby="heart-icon" role="img">
+						<title id="heart-icon">love</title>
+						<path d="M 10,30
+							A 20,20 0,0,1 50,30
+							A 20,20 0,0,1 90,30
+							Q 90,60 50,80
+							Q 10,60 10,30 z"/>
+					</svg> 
+					in Boston by <a href="https://ashleykolodziej.com/">Ashley Kolodziej</a> &amp; <a href="https://jimreevior.com/">Jim Reevior</a> for <a href="https://newenglandgivecamp.org/">New England GiveCamp</a>
+				</p>
+			</address>
+		</footer>
 	</body>
 </html>
