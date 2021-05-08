@@ -29,7 +29,7 @@
 			<p>
 				Keith, a middle-aged local Boston resident, reached out and told us that he lacked some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we could help. Even though it was different from what we’ve done before, we thought - this is what we’re here for.
 			</p>
-			<p>This is what Boston Volunteer is about.</p>
+			<p>This is what the Boston Volunteers is about.</p>
 		</aside>
 		<aside class="bv-impact-results">
 			<div class="bv-impact-fact">
