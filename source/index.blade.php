@@ -18,14 +18,16 @@
 @section('content')
 	<div class="bv-center">
 		<h2>Imagine the impact you could have here.</h2>
-		<p>From many ideas, ONE vision. From many events, ONE adventure. From many people, ONE community. From many priorities, ONE purpose.
-</p>
+		<p>From many ideas, ONE vision.</p>
+		<p>From many events, ONE adventure.</p>
+		<p>From many people, ONE community.</p>
+		<p>From many priorities, ONE purpose.</p>
 	</div>
 	<section class="bv-impact">
 		<aside class="bv-impact-large">
 			<h3>Helping local residents</h3>
 			<p>
-				Keith - local Boston resident - middle age - reached out and mentioned that he lacks some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we can help. Even though it’s different from what we’ve done before, we thought - this is what we’re here for.
+				Keith, a middle-aged local Boston resident, reached out and told us that he lacked some basic computer skills. He mentioned how hard it is to find gainful employment with almost no computer skills, and asked if we could help. Even though it was different from what we’ve done before, we thought - this is what we’re here for.
 			</p>
 			<p>This is what Boston Volunteer is about.</p>
 		</aside>
