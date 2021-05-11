@@ -615,7 +615,7 @@ p {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  height: 60vh;
+  min-height: 60vh;
   justify-content: center;
   overflow: hidden;
   position: relative;
@@ -642,13 +642,19 @@ p {
   position: relative;
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .bv-hero-content {
     font-size: 0.5em;
   }
 }
 .bv-hero-content p {
   margin-bottom: 1em;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 992px) {
+  .bv-hero-content p {
+    font-size: 2em;
+  }
 }
 
 .bv-hero-button {
