@@ -4,7 +4,7 @@
 
 @section('hero-media')
 		<video autoplay loop muted playsinline>
-			<source src="/assets/video/pexels-julia-m-cameron-6893993.mp4"
+			<source src="/assets/video/video-optimized-further.mp4"
 			type="video/mp4">
 			<!-- TODO: a still image here as a fallback -->
 			Sorry, your browser doesn't support embedded videos.
@@ -12,7 +12,7 @@
 @endsection
 
 @section('hero-content')
-		<h1>About</h1>
+		<h1>About Us</h1>
 		<p>Boston Volunteers is a non-profit organization fighting to make Boston cleaner, safer, and better.</p>
 @endsection
 
