@@ -52,6 +52,34 @@ img {
     		color: inherit;
     	}
     }
+
+    .bv-button {
+    	color: #fff;
+
+    	&:visited,
+    	&:hover,
+    	&:active {
+    		color: #fff;
+    	}
+    }
+}
+
+.bv-profiles {
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.bv-profile-image {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	max-width: 200px;
+
+	@media screen and (min-width: $sm) {
+		float: right;
+		margin-bottom: 1em;
+	}
 }
 
 footer {

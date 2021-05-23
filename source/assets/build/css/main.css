@@ -532,7 +532,7 @@ p {
   justify-content: space-between;
   padding: 1em;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .bv-nav {
     flex-wrap: wrap;
   }
@@ -547,7 +547,7 @@ p {
   align-items: center;
   list-style-type: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .bv-nav-list {
     width: 100%;
   }
@@ -555,7 +555,7 @@ p {
 .bv-nav-list.has-js {
   display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .bv-nav-list.has-js {
     display: flex;
   }
@@ -563,9 +563,19 @@ p {
 .bv-nav-list.bv-nav-open {
   display: block;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .bv-nav-list.bv-nav-open {
     display: flex;
+  }
+}
+@media screen and (min-width: 992px) {
+  .bv-nav-list {
+    font-size: 0.85em;
+  }
+}
+@media screen and (min-width: 1142px) {
+  .bv-nav-list {
+    font-size: 1em;
   }
 }
 
@@ -583,7 +593,7 @@ p {
   padding: 0.5em 1em;
   margin-top: 0.5em;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .bv-nav-button {
     border-radius: 3em 0 0 3em;
     margin-left: 1em;
@@ -594,7 +604,7 @@ p {
 .bv-nav-callout + .bv-nav-callout .bv-nav-button {
   background: #d04428;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .bv-nav-callout + .bv-nav-callout .bv-nav-button {
     border-radius: 0 3em 3em 0;
     margin-left: 0;
@@ -605,7 +615,7 @@ p {
   font-family: "Domine", serif;
   display: block;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .bv-nav-toggle {
     display: none;
   }
@@ -812,6 +822,29 @@ img {
 }
 .bv-content-text a:visited, .bv-content-text a:hover, .bv-content-text a:active {
   color: inherit;
+}
+.bv-content-text .bv-button {
+  color: #fff;
+}
+.bv-content-text .bv-button:visited, .bv-content-text .bv-button:hover, .bv-content-text .bv-button:active {
+  color: #fff;
+}
+
+.bv-profiles h2 {
+  margin-top: 0;
+}
+
+.bv-profile-image {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .bv-profile-image {
+    float: right;
+    margin-bottom: 1em;
+  }
 }
 
 footer {
