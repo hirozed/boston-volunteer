@@ -70,15 +70,19 @@ img {
 	}
 }
 
+.bv-content-profiles {
+	max-width: 85ch;
+}
+
 .bv-profile-image {
 	border-radius: 50%;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 1em;
 	max-width: 200px;
 
 	@media screen and (min-width: $sm) {
 		float: right;
-		margin-bottom: 1em;
+		margin-left: 1em;
 	}
 }
 

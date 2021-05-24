@@ -17,7 +17,7 @@
 @endsection
 
 @section('content')
-<div class="bv-content-container bv-content-text">
+<div class="bv-content-container bv-content-text bv-content-profiles">
 <h2>We’re working together to make Boston even better.
 </h2>
 <aside class="bv-impact-results">
@@ -37,6 +37,7 @@
 			<p>We are thrilled to have some of the most committed, passionate, and innovative Bostonians around leading the charge at Boston Volunteer. Here's who you'll be working with:</p>
 		</div>
 		<section class="bv-content-text">
+			<img class="bv-profile-image" src="/assets/images/josh_suit.jpg" alt="Josh Konoff">
 			<h2>Josh Konoff</h2>
 			<h3>Founder</h3>
 			<p>Josh Konoff is the entrepreneur and Executive Director of the Boston Volunteers, one of Boston’s most popular nonprofits. Josh also enjoys reading, coding, and being immersed in nature. His favorite books are War and Peace and Atomic Habits. </p>
