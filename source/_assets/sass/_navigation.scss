@@ -1,6 +1,6 @@
 // Navigation styles
 
-$nav-breakpoint: $sm;
+$nav-breakpoint: $md;
 
 .bv-nav {
 	align-items: center;
@@ -29,7 +29,7 @@ $nav-breakpoint: $sm;
 
 	&.has-js {
 		display: none;
-		
+
 		@media screen and ( min-width: $nav-breakpoint ) {
 			display: flex;
 		}
@@ -41,6 +41,14 @@ $nav-breakpoint: $sm;
 		@media screen and ( min-width: $nav-breakpoint ) {
 			display: flex;
 		}
+	}
+
+	@media screen and ( min-width: $nav-breakpoint ) {
+		font-size: 0.85em;
+	}
+
+	@media screen and ( min-width: $nav-breakpoint + 150 ) {
+		font-size: 1em;
 	}
 }
 

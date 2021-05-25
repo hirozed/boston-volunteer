@@ -2,6 +2,7 @@
 
 section {
 	padding: 5vw;
+	padding: clamp(1rem, 5vw, 4rem); 
 }
 
 .bv-quotes {
