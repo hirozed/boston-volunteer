@@ -45,6 +45,12 @@
 			<p>Send Josh a message at <a href="mailto:josh@bostonvolunteer.org">josh@bostonvolunteer.org</a> or <a href="https://www.linkedin.com/in/joshuakonoff8/">connect with Josh on LinkedIn.</a></p>
 		</section>
 		<section class="bv-content-text">
+			<img class="bv-profile-image" src="/assets/images/zach.jpg" alt="Zach H.">
+			<h2>Zach H.</h2>
+			<h3>Title?</h3>
+			<p>Bio and LinkedIn?</p>
+		</section>
+		<section class="bv-content-text">
 			<img class="bv-profile-image" src="/assets/images/ashley-avatar.jpg" alt="Ashley Kolodziej">
 			<h2>Ashley Kolodziej</h2>
 			<h3>Chief Creative Officer</h3>
