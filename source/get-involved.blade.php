@@ -19,6 +19,7 @@
 @section('content')
 <section class="bv-get-involved">
 	<h2 class="bv-center">We make it easy to help, no matter what your schedule is.</h2>
+	<p>You choose which events you want to go to. Some people come to almost all Boston Volunteer events. Others might only come to one a year. You decide.</p>
 	<div class="bv-impact">
 		<aside class="bv-commit">
 			<h3>Volunteer</h3>
