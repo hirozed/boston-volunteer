@@ -47,8 +47,9 @@
 		<section class="bv-content-text">
 			<img class="bv-profile-image" src="/assets/images/zach.jpg" alt="Zach H.">
 			<h2>Zach H.</h2>
-			<h3>Title?</h3>
-			<p>Bio and LinkedIn?</p>
+			<!--h3>Title?</h3-->
+			<p>Zach found his passion for technology when he was a kid playing video games. Pursuing this passion, he decided to go into software engineering and has been looking to help others break into the industry as well.</p>
+			<p>Though coding and gaming while he is indoors, he is also an outdoorsman. Zach enjoys paddleboarding, jetskiing, racing, and many other adrenaline junkie activities!</p>
 		</section>
 		<section class="bv-content-text">
 			<img class="bv-profile-image" src="/assets/images/ashley-avatar.jpg" alt="Ashley Kolodziej">
