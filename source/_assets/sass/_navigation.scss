@@ -1,6 +1,6 @@
 // Navigation styles
 
-$nav-breakpoint: $md;
+$nav-breakpoint: $md + 100;
 
 .bv-nav {
 	align-items: center;
@@ -75,11 +75,19 @@ $nav-breakpoint: $md;
 
 .bv-nav-callout {
 	& + & .bv-nav-button {
+		@media screen and (min-width: $nav-breakpoint) {
+			border-radius: 0;
+			margin-left: 1px;
+		}
+	}
+}
+
+.bv-nav-callout:last-child {
+	.bv-nav-button {
 		background: $color-orange;
 
 		@media screen and (min-width: $nav-breakpoint) {
 			border-radius: 0 3em 3em 0;
-			margin-left: 0;
 		}
 	}
 }
